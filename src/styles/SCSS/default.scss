@@ -1,0 +1,20 @@
+//Importando font-awesome
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+//Importando fontes
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+//Variáveis de Cor
+$black-main: #292929;
+$white-main: #f6f6f6;
+$purple-main: #8600c9;
+$black-purple: #3a0f4a;
