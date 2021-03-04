@@ -18,3 +18,28 @@ $black-main: #292929;
 $white-main: #f6f6f6;
 $purple-main: #8600c9;
 $black-purple: #3a0f4a;
+
+button {
+    font-size: 0.9rem;
+    border: none;
+    background: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    color: $purple-main;
+    .fa-chevron-right {
+        margin-left: 0.8rem;
+        transition: 0.5s all;
+    }
+    &:active {
+        .fa-chevron-right {
+            transform: rotate(90deg);
+        }
+    }
+    &.Purple {
+        background: $purple-main;
+        color: $white-main;
+        font-weight: 600;
+        border-radius: 8px;
+        padding: 0.7rem 1.4rem;
+    }
+}
