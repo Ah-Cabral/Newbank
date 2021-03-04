@@ -1,4 +1,19 @@
 @import "../SCSS/default.scss";
 
-button {
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    img {
+        width: 45px;
+        height: 55px;
+    }
+    .Left-Side,
+    .Right-Side {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
 }
