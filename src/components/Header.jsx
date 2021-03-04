@@ -7,14 +7,14 @@ const Header = () => {
         <header className='Main-Header'>
             <div className="Left-Side">
                 <img src={NubankLogo} alt="Logo Nubank" />
-                <button>Seu Nubank</button>
-                <button>Conta Digital</button>
-                <button>Para Você</button>
+                <button>Seu Nubank <i class="fas fa-chevron-right"></i></button>
+                <button>Conta Digital <i class="fas fa-chevron-right"></i></button>
+                <button>Para Você <i class="fas fa-chevron-right"></i></button>
             </div>
 
             <div className="Right-Side">
-                <button>Login</button>
-                <button>Quero Ser Nubank</button>
+                <button>Login <i class="fas fa-sign-in-alt"></i></button>
+                <button className='Purple'>Quero Ser Nubank</button>
             </div>
         </header>
     )
