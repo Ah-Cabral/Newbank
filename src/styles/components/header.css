@@ -8,3 +8,44 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
+button {
+  font-size: 0.9rem;
+  border: none;
+  background: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  color: #8600c9;
+}
+button .fa-chevron-right {
+  margin-left: 0.8rem;
+  transition: 0.5s all;
+}
+button:active .fa-chevron-right {
+  transform: rotate(90deg);
+}
+button.Purple {
+  background: #8600c9;
+  color: #f6f6f6;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.7rem 1.4rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2.5rem;
+}
+header img {
+  width: 45px;
+  height: 55px;
+}
+header .Left-Side,
+header .Right-Side {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
