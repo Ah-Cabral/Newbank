@@ -1,7 +1,10 @@
+import Main from './pages/Main';
+import './styles/css/default.css';
+
 function App() {
   return (
     <div className="App">
-      <h1>Oi</h1>
+      <Main />
     </div>
   );
 }
