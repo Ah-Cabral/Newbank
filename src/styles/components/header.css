@@ -9,31 +9,25 @@
   -moz-box-sizing: border-box;
 }
 
-button {
-  font-size: 0.9rem;
-  border: none;
-  background: none;
-  padding: 0.7rem;
-  cursor: pointer;
-  color: #8600c9;
-}
-button .fa-chevron-right {
-  margin-left: 0.8rem;
-  transition: 0.5s all;
-}
-button:active .fa-chevron-right {
-  transform: rotate(90deg);
-}
 button.Purple {
   background: #8600c9;
   color: #f6f6f6;
   font-weight: 600;
   border-radius: 8px;
   padding: 0.7rem 1.4rem;
+  transition: all 0.5s;
+}
+button.Purple:hover {
+  background: #f6f6f6;
+  color: #8600c9;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  box-shadow: 20px 20px 41px #d7d7d7, -20px -20px 41px #e9e9e9;
 }
 
 header {
   width: 100%;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,4 +42,36 @@ header .Right-Side {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+}
+header button {
+  font-size: 0.9rem;
+  border: none;
+  background: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  color: #8600c9;
+}
+header button .fa-chevron-right {
+  margin-left: 0.8rem;
+  transition: 0.5s all;
+}
+header button.active .fa-chevron-right {
+  transform: rotate(90deg);
+}
+header button.login:hover .fa-sign-in-alt {
+  position: relative;
+  animation: mexendo 0.85s infinite;
+  transition: all 0.5s;
+}
+
+@keyframes mexendo {
+  0% {
+    left: 0;
+  }
+  75% {
+    left: 0.25rem;
+  }
+  100% {
+    left: 0;
+  }
 }
