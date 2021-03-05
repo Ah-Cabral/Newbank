@@ -18,28 +18,22 @@ $black-main: #292929;
 $white-main: #f6f6f6;
 $purple-main: #8600c9;
 $black-purple: #3a0f4a;
+$gray-light: #e4e4e4;
 
 button {
-    font-size: 0.9rem;
-    border: none;
-    background: none;
-    padding: 0.7rem;
-    cursor: pointer;
-    color: $purple-main;
-    .fa-chevron-right {
-        margin-left: 0.8rem;
-        transition: 0.5s all;
-    }
-    &:active {
-        .fa-chevron-right {
-            transform: rotate(90deg);
-        }
-    }
     &.Purple {
         background: $purple-main;
         color: $white-main;
         font-weight: 600;
         border-radius: 8px;
         padding: 0.7rem 1.4rem;
+        transition: all 0.5s;
+        &:hover {
+            background: $white-main;
+            color: $purple-main;
+            border: 1px solid $gray-light;
+            border-radius: 10px;
+            box-shadow: 20px 20px 41px #d7d7d7, -20px -20px 41px #e9e9e9;
+        }
     }
 }
