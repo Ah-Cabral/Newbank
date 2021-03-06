@@ -9,6 +9,10 @@
   -moz-box-sizing: border-box;
 }
 
+body {
+  overflow: hidden;
+}
+
 button.Purple {
   background: #8600c9;
   color: #f6f6f6;
