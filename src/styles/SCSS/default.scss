@@ -13,6 +13,10 @@
     -moz-box-sizing: border-box;
 }
 
+body {
+    overflow: hidden;
+}
+
 //Variáveis de Cor
 $black-main: #292929;
 $white-main: #f6f6f6;
