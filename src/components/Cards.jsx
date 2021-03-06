@@ -24,7 +24,7 @@ const BlackCard = ({ name }) => {
     return (
         <div className="black-purple-card card">
             <div className="mastercard-div"><img src={MastercardIcon} alt="Logo-Mastercard" /></div>
-            <div className="chipcard-div"><img src={ChipCard} alt="" /> <img src={Signal} alt="" /></div>
+            <div className="chipcard-div"><img src={ChipCard} alt="" className="chip" /> <img src={Signal} alt="" /></div>
             <div className="logoname-div"><img src={NubankLogoWhite} alt="" /><h3>{name}</h3></div>
         </div>
 
