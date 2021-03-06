@@ -11,6 +11,7 @@ const Main = () => {
             <Header />
             <main className="main-container">
                 <BlackCard name='Bem vindo ;)' />
+
                 <PurpleCard name='Arthur Cabral' />
 
                 <div className="balls">
