@@ -1,21 +1,29 @@
 @import "../SCSS/var.scss";
+
 .card {
-    z-index: 99;
+    z-index: 2;
     position: absolute;
-    width: 32rem;
-    height: 20rem;
+    width: 500px;
+    height: 300px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     background: linear-gradient(108.56deg, #7d249f 14.87%, #832dad 58.51%, #64066e 109.21%);
     border-radius: 15px;
     margin: 1rem;
-    .simple-purple-card {
-        position: absolute;
-    }
-    .black-purple-card {
+    &.black-purple-card {
         background: linear-gradient(108.56deg, #390f49 14.87%, #4d1369 58.51%, #45115c 109.21%);
         position: absolute;
-        top: 1rem;
+        top: 15rem;
+        transform: rotate(-8deg);
+        left: 1rem;
+    }
+    &.simple-purple-card {
+        width: 620px;
+        height: 400px;
+        position: absolute;
+        top: 13rem;
+        right: 1rem;
+        transform: rotate(10deg);
     }
     .mastercard-div {
         position: relative;
@@ -33,7 +41,7 @@
         gap: 0.5rem;
         padding-left: 1.5rem;
         img.chip {
-            width: 3.5rem;
+            width: 4.5rem;
             height: 3.5rem;
         }
     }
@@ -41,7 +49,7 @@
         display: flex;
         align-items: center;
         gap: 1rem;
-        padding-left: 1rem;
+        padding-left: 1.5rem;
         img {
             width: 5.5rem;
         }
