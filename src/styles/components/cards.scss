@@ -18,6 +18,11 @@
         transform: rotate(-8deg);
         left: 1rem;
         animation: apareceCard 1s, mexe 13s infinite;
+        transition: all 1s;
+        &:hover {
+            width: 520px;
+            height: 320px;
+        }
         .chipcard-div img.chip {
             width: 3.8rem;
             height: 3rem;
@@ -31,6 +36,11 @@
         right: 1rem;
         transform: rotate(10deg);
         animation: apareceCard2 2s, mexe2 5s infinite;
+        transition: all 1s;
+        &:hover {
+            width: 620px;
+            height: 400px;
+        }
     }
     .mastercard-div {
         position: relative;
