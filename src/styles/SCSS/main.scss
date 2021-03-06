@@ -15,14 +15,14 @@
             background: linear-gradient(268.75deg, #dadada -66.5%, #f9f9f9 108.54%);
             left: -26.75rem;
             top: 2rem;
-            animation: aparecendo-gray 1s;
+            animation: aparecendo-gray 0.75s;
         }
         &.purple-ball {
             position: absolute;
             background: linear-gradient(268.75deg, #8a05be -66.5%, #f9f9f9 108.54%);
             transform: matrix(-1, 0, 0, 1, 0, 0);
             right: -26.75rem;
-            top: 7rem;
+            top: 5rem;
             animation: aparecendo-purple 1.3s;
         }
     }
