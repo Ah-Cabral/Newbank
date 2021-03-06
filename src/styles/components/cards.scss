@@ -17,7 +17,7 @@
         top: 15rem;
         transform: rotate(-8deg);
         left: 1rem;
-        animation: apareceCard 2s, mexe 13s infinite;
+        animation: apareceCard 1s, mexe 13s infinite;
         .chipcard-div img.chip {
             width: 3.8rem;
             height: 3rem;
@@ -131,11 +131,11 @@
 
 @keyframes apareceCard {
     0% {
-        top: 17rem;
+        left: 10rem;
         opacity: 0;
     }
     100% {
-        top: 15rem;
+        left: 1rem;
         opacity: 1;
     }
 }
@@ -143,7 +143,7 @@
 @keyframes apareceCard2 {
     0% {
         top: 17rem;
-        right: 2rem;
+        right: 6rem;
         opacity: 0;
     }
     100% {
