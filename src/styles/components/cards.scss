@@ -1,10 +1,11 @@
 @import "../SCSS/var.scss";
 
 .card {
+    overflow: hidden;
     z-index: 2;
     position: absolute;
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 250px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     background: linear-gradient(108.56deg, #7d249f 14.87%, #832dad 58.51%, #64066e 109.21%);
@@ -16,14 +17,16 @@
         top: 15rem;
         transform: rotate(-8deg);
         left: 1rem;
+        animation: apareceCard 2s;
     }
     &.simple-purple-card {
-        width: 620px;
-        height: 400px;
+        width: 580px;
+        height: 360px;
         position: absolute;
         top: 13rem;
         right: 1rem;
         transform: rotate(10deg);
+        animation: apareceCard2 2s, mexe 10s infinite;
     }
     .mastercard-div {
         position: relative;
@@ -59,5 +62,47 @@
             font-weight: 600;
             color: $gray-light;
         }
+    }
+}
+
+@keyframes mexe {
+    0% {
+        transform: rotate(-8deg);
+    }
+    25% {
+        transform: rotate(12deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    75% {
+        transform: rotate(12deg);
+    }
+    100% {
+        transform: rotate(-8deg);
+    }
+}
+
+@keyframes apareceCard {
+    0% {
+        top: 17rem;
+        opacity: 0;
+    }
+    100% {
+        top: 15rem;
+        opacity: 1;
+    }
+}
+
+@keyframes apareceCard2 {
+    0% {
+        top: 17rem;
+        right: 2rem;
+        opacity: 0;
+    }
+    100% {
+        top: 12rem;
+        right: 1rem;
+        opacity: 1;
     }
 }
