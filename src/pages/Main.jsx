@@ -10,9 +10,9 @@ const Main = () => {
         <>
             <Header />
             <main className="main-container">
-                <BlackCard name='Bem vindo ;)' />
-
+                {/*<BlackCard name='Bem vindo ;)' />*/}
                 <PurpleCard name='Arthur Cabral' />
+
 
                 <div className="balls">
                     <div className="gray-ball ball"></div>
