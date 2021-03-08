@@ -36,6 +36,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2.5rem;
+  animation: aparecendo 3s;
 }
 header img {
   width: 45px;
@@ -77,5 +78,15 @@ header button.login:hover .fa-sign-in-alt {
   }
   100% {
     left: 0;
+  }
+}
+@keyframes aparecendo {
+  0% {
+    top: 3rem;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
   }
 }
