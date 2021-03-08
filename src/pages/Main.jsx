@@ -10,9 +10,15 @@ const Main = () => {
         <>
             <Header />
             <main className="main-container">
-                {/*<BlackCard name='Bem vindo ;)' />*/}
-                <PurpleCard name='Arthur Cabral' />
 
+                {/*<BlackCard name='Bem vindo ;)' />*/}
+
+                <PurpleCard name='Arthur Cabral' />
+                <section className="welcome-section">
+                    <h1>Você no controle do seu dinheiro</h1>
+                    <h3>Controle total do cartão de crédito e da conta 100% digital.</h3>
+                    <button>Saiba Mais</button>
+                </section>
 
                 <div className="balls">
                     <div className="gray-ball ball"></div>
