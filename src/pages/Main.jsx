@@ -17,7 +17,7 @@ const Main = () => {
 
                 <section className="welcome-section">
                     <h1>Você no controle do seu dinheiro</h1>
-                    <h3>Controle total do cartão de crédito e da conta 100% digital.</h3>
+                    <h3>Controle total do cartão de crédito e da conta 100% digital</h3>
                     <button>Saiba Mais</button>
                 </section>
 
