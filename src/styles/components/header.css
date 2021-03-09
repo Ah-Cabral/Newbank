@@ -44,7 +44,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2.5rem;
-  animation: aparecendo 3s;
+  animation: apareceHeader 3s;
 }
 header img {
   width: 45px;
@@ -80,7 +80,7 @@ header button.login:hover .fa-sign-in-alt {
     left: 0;
   }
 }
-@keyframes aparecendo {
+@keyframes apareceHeader {
   0% {
     top: 3rem;
     opacity: 0;
