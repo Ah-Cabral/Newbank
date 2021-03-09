@@ -1,9 +1,12 @@
 @import "./var.scss";
 
 .main-container {
-    overflow: hidden;
+    overflow-x: hidden;
 }
+
 .balls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     z-index: 1;
     width: 100%;
     height: 90vh;
@@ -28,26 +31,35 @@
             animation: aparecendo-purple 1.3s;
         }
     }
+    .div-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .welcome-section {
+        width: 550px;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem;
+        gap: 1.5rem;
+        animation: apareceWelcome 2s;
+        h1 {
+            font-size: 3.5rem;
+            color: $purple-main;
+        }
+        h3 {
+            font-weight: 400;
+            color: $black-main;
+        }
+    }
 }
 
-.welcome-section {
-    width: 400px;
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    position: absolute;
-    top: 15rem;
-    left: 3rem;
-    animation: aparecendo 2s;
-    h1 {
-        font-size: 3.5rem;
-        color: $purple-main;
-    }
-    h3 {
-        font-weight: 400;
-        color: $black-main;
-    }
+.account-section-container {
+    width: 100%;
+    height: 100vh;
 }
 
 @keyframes aparecendo-gray {
@@ -71,13 +83,14 @@
         opacity: 1;
     }
 }
-@keyframes aparecendo {
+
+@keyframes apareceWelcome {
     0% {
-        top: 18rem;
+        margin-top: 18rem;
         opacity: 0;
     }
     100% {
-        top: 15rem;
+        margin-top: 0;
         opacity: 1;
     }
 }
