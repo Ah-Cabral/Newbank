@@ -2,7 +2,7 @@ import React from 'react'
 
 import { BlackCard, PurpleCard } from './Cards'
 
-import '../styles/components/home-section.css'
+import '../styles/components/CSS/home-section.css'
 
 
 function homeSection() {

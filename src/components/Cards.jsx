@@ -5,7 +5,7 @@ import ChipCard from '../images/chip-card.png'
 import Signal from '../images/signal.svg'
 import NubankLogoWhite from '../images/nubank-white-logo.svg'
 
-import '../styles/components/cards.css'
+import '../styles/components/CSS/cards.css'
 
 //Componente referente ao card normal
 const PurpleCard = ({ name }) => {
