@@ -1,0 +1,143 @@
+@import "../SCSS/var.scss";
+
+.card {
+    width: 480px;
+    height: 280px;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background: linear-gradient(108.56deg, #7d249f 14.87%, #832dad 58.51%, #64066e 109.21%);
+    border-radius: 15px;
+    box-shadow: 11px 11px 80px #2f05522a, -11px -11px 80px #1c0f201a;
+    &.black-purple-card {
+        background: linear-gradient(108.56deg, #390f49 14.87%, #4d1369 58.51%, #45115c 109.21%);
+        animation: mexe 13s infinite;
+        transition: all 1s;
+        &:hover {
+            width: 520px;
+            height: 320px;
+        }
+        .chipcard-div img.chip {
+            width: 3.8rem;
+            height: 3rem;
+        }
+    }
+    &.simple-purple-card {
+        width: 630px;
+        height: 420px;
+        animation: apareceCard 2s, mexe2 5s infinite;
+        transition: all 1s;
+        &:hover {
+            width: 680px;
+            height: 460px;
+        }
+    }
+    .mastercard-div {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0.5rem;
+        img {
+            width: 6rem;
+            left: 0.5rem;
+        }
+    }
+    .chipcard-div {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding-left: 1.5rem;
+        img.chip {
+            width: 4.5rem;
+            height: 3.5rem;
+        }
+    }
+    .logoname-div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-left: 1.5rem;
+        img {
+            height: 40%;
+        }
+        h3 {
+            text-transform: uppercase;
+            font-size: 1rem;
+            font-weight: 600;
+            color: $gray-light;
+        }
+    }
+}
+
+@keyframes mexe {
+    0% {
+        top: 15rem;
+        transform: rotate(-4deg);
+    }
+    25% {
+        transform: rotate(-5deg);
+    }
+    35% {
+        transform: rotate(-5.5deg);
+    }
+    50% {
+        transform: rotate(13deg);
+    }
+    60% {
+        transform: rotate(13.5deg);
+    }
+    75% {
+        top: 18rem;
+        transform: rotate(6deg);
+    }
+    90% {
+        transform: rotate(6.5deg);
+    }
+    100% {
+        top: 13rem;
+        transform: rotate(-4deg);
+    }
+}
+
+@keyframes mexe2 {
+    0% {
+        top: 13rem;
+        transform: rotate(3deg);
+    }
+    25% {
+        top: 15rem;
+        transform: rotate(-2deg);
+    }
+    35% {
+        transform: rotate(-2.5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    60% {
+        transform: rotate(5.5deg);
+    }
+    75% {
+        transform: rotate(6deg);
+    }
+    90% {
+        transform: rotate(6.5deg);
+    }
+    100% {
+        top: 13rem;
+        transform: rotate(3deg);
+    }
+}
+
+@keyframes apareceCard {
+    0% {
+        margin-top: 8rem;
+        margin-right: 5rem;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+}
