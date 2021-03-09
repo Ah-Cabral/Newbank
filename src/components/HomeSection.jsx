@@ -22,6 +22,7 @@ function homeSection() {
                 <div className="div-card">
                     <PurpleCard name='Arthur Cabral' />
                 </div>
+
                 {/*<BlackCard name='Bem vindo ;)' />*/}
 
             </div>
