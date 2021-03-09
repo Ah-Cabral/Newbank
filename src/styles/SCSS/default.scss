@@ -25,19 +25,25 @@ $black-purple: #3a0f4a;
 $gray-light: #e4e4e4;
 
 button {
-    &.Purple {
-        background: $purple-main;
-        color: $white-main;
-        font-weight: 600;
-        border-radius: 8px;
-        padding: 0.7rem 1.4rem;
-        transition: all 0.5s;
-        &:hover {
-            background: $white-main;
-            color: $purple-main;
-            border: 1px solid $gray-light;
-            border-radius: 10px;
-            box-shadow: 7px 7px 10px #e4e4e4b9, -7px -7px 10px #f2f2f2e1;
-        }
+    border: none;
+    background: $purple-main;
+    color: $white-main;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.7rem 1.4rem;
+    transition: all 0.5s;
+    &:hover {
+        background: $white-main;
+        color: $purple-main;
+        border: 1px solid $gray-light;
+        border-radius: 10px;
+    }
+    &.Pattern {
+        font-size: 0.9rem;
+        border: none;
+        background: none;
+        padding: 0.7rem;
+        cursor: pointer;
+        color: $purple-main;
     }
 }
