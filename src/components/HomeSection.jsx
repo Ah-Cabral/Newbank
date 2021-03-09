@@ -8,7 +8,7 @@ import '../styles/components/home-section.css'
 function homeSection() {
     return (
         <section>
-            <div className="balls">
+            <div className="home-section-container">
 
                 <div className="gray-ball ball"></div>
                 <div className="purple-ball ball"></div>
