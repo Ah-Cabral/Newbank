@@ -1,5 +1,6 @@
 import React from 'react'
 
+import '../styles/components/account-section.css'
 
 function AccountSection() {
     return (
