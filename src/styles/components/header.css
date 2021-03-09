@@ -13,7 +13,8 @@ body {
   overflow: hidden;
 }
 
-button.Purple {
+button {
+  border: none;
   background: #8600c9;
   color: #f6f6f6;
   font-weight: 600;
@@ -21,12 +22,19 @@ button.Purple {
   padding: 0.7rem 1.4rem;
   transition: all 0.5s;
 }
-button.Purple:hover {
+button:hover {
   background: #f6f6f6;
   color: #8600c9;
   border: 1px solid #e4e4e4;
   border-radius: 10px;
-  box-shadow: 7px 7px 10px #e4e4e4b9, -7px -7px 10px #f2f2f2e1;
+}
+button.Pattern {
+  font-size: 0.9rem;
+  border: none;
+  background: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  color: #8600c9;
 }
 
 header {
@@ -47,14 +55,6 @@ header .Right-Side {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-}
-header button {
-  font-size: 0.9rem;
-  border: none;
-  background: none;
-  padding: 0.7rem;
-  cursor: pointer;
-  color: #8600c9;
 }
 header button .fa-chevron-right {
   margin-left: 0.8rem;
