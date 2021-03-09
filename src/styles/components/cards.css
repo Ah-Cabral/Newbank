@@ -28,8 +28,8 @@
   height: 3rem;
 }
 .card.simple-purple-card {
-  width: 620px;
-  height: 400px;
+  width: 630px;
+  height: 420px;
   position: absolute;
   top: 13rem;
   right: 1rem;
@@ -38,8 +38,8 @@
   transition: all 1s;
 }
 .card.simple-purple-card:hover {
-  width: 620px;
-  height: 400px;
+  width: 680px;
+  height: 460px;
 }
 .card .mastercard-div {
   position: relative;
