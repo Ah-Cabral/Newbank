@@ -18,13 +18,8 @@ header {
         align-items: center;
         gap: 1.5rem;
     }
+
     button {
-        font-size: 0.9rem;
-        border: none;
-        background: none;
-        padding: 0.7rem;
-        cursor: pointer;
-        color: $purple-main;
         .fa-chevron-right {
             margin-left: 0.8rem;
             transition: 0.5s all;
