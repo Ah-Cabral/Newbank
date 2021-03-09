@@ -29,6 +29,25 @@
   animation: aparecendo-purple 1.3s;
 }
 
+.welcome-section {
+  width: 350px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: absolute;
+  top: 15rem;
+  left: 2rem;
+}
+.welcome-section h1 {
+  font-size: 3rem;
+  color: #8600c9;
+}
+.welcome-section h3 {
+  font-weight: 400;
+  color: #292929;
+}
+
 @keyframes aparecendo-gray {
   0% {
     opacity: 0;
