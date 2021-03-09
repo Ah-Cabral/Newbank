@@ -14,7 +14,7 @@ const Header = () => {
 
             <div className="Right-Side">
                 <button className="login">Login <i class="fas fa-sign-in-alt"></i></button>
-                <button className='Purple'>Quero Ser Nubank</button>
+                <button className="Purple">Quero Ser Nubank</button>
             </div>
         </header>
     )
