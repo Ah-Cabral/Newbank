@@ -36,3 +36,7 @@ button.Pattern {
   cursor: pointer;
   color: #8600c9;
 }
+
+.account-section-container {
+  z-index: 10;
+}
