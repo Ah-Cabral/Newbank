@@ -2,9 +2,11 @@ import React from 'react'
 
 function AccountSection() {
     return (
-        <section className="account-section-container">
-
-        </section>
+        <div className="account-section-container">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <h4>lorem consectueur dolor sit</h4>
+            <button>Lorem Ipsum</button>
+        </div>
     )
 }
 
