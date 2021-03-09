@@ -39,7 +39,7 @@
     position: absolute;
     top: 15rem;
     left: 3rem;
-    animation: aparecendo 3s;
+    animation: aparecendo 2s;
     h1 {
         font-size: 3.5rem;
         color: $purple-main;
@@ -73,7 +73,7 @@
 }
 @keyframes aparecendo {
     0% {
-        top: 3rem;
+        top: 18rem;
         opacity: 0;
     }
     100% {
