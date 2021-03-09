@@ -30,17 +30,18 @@
 }
 
 .welcome-section {
-  width: 350px;
+  width: 400px;
   z-index: 3;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   position: absolute;
   top: 15rem;
-  left: 2rem;
+  left: 3rem;
+  animation: aparecendo 3s;
 }
 .welcome-section h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #8600c9;
 }
 .welcome-section h3 {
@@ -65,6 +66,16 @@
   }
   100% {
     right: -26.75rem;
+    opacity: 1;
+  }
+}
+@keyframes aparecendo {
+  0% {
+    top: 3rem;
+    opacity: 0;
+  }
+  100% {
+    top: 15rem;
     opacity: 1;
   }
 }
