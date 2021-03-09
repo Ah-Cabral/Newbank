@@ -1,0 +1,38 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+button {
+  border: none;
+  background: #8600c9;
+  color: #f6f6f6;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.7rem 1.4rem;
+  transition: all 0.5s;
+}
+button:hover {
+  background: #f6f6f6;
+  color: #8600c9;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+}
+button.Pattern {
+  font-size: 0.9rem;
+  border: none;
+  background: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  color: #8600c9;
+}
