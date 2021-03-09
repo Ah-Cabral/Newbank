@@ -37,7 +37,7 @@ button.Pattern {
   color: #8600c9;
 }
 
-.balls {
+.home-section-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   z-index: 1;
@@ -45,19 +45,19 @@ button.Pattern {
   height: 90vh;
   position: relative;
 }
-.balls .ball {
+.home-section-container .ball {
   border-radius: 50%;
   width: 53.25rem;
   height: 53.25rem;
 }
-.balls .ball.gray-ball {
+.home-section-container .ball.gray-ball {
   position: absolute;
   background: linear-gradient(268.75deg, #dadada -66.5%, #f9f9f9 108.54%);
   left: -26.75rem;
   top: 2rem;
   animation: aparecendo-gray 0.75s;
 }
-.balls .ball.purple-ball {
+.home-section-container .ball.purple-ball {
   position: absolute;
   background: linear-gradient(268.75deg, #8a05be -66.5%, #f9f9f9 108.54%);
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -65,12 +65,12 @@ button.Pattern {
   top: 5rem;
   animation: aparecendo-purple 1.3s;
 }
-.balls .div-card {
+.home-section-container .div-card {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.balls .welcome-section {
+.home-section-container .welcome-section {
   width: 550px;
   z-index: 3;
   display: flex;
@@ -80,11 +80,11 @@ button.Pattern {
   gap: 1.5rem;
   animation: apareceWelcome 2s;
 }
-.balls .welcome-section h1 {
+.home-section-container .welcome-section h1 {
   font-size: 3.5rem;
   color: #8600c9;
 }
-.balls .welcome-section h3 {
+.home-section-container .welcome-section h3 {
   font-weight: 400;
   color: #292929;
 }
