@@ -1,9 +1,11 @@
 import React from 'react'
-//Importando Ccomponente header
+//Importando Componente header
 import Header from '../../components/Header'
 //Importando CSS
 import '../../styles/css/main.css'
 import HomeSection from './Components/HomeSection'
+import AccountSection from './Components/AccountSection'
+
 
 
 const Main = () => {
@@ -12,6 +14,7 @@ const Main = () => {
             <Header />
             <main className="main-container">
                 <HomeSection />
+                <AccountSection />
             </main>
         </>
     )
