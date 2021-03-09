@@ -3,8 +3,8 @@ import React from 'react'
 import Header from '../../components/Header'
 //Importando CSS
 import '../../styles/css/main.css'
-import HomeSection from './Components/HomeSection'
 import AccountSection from './Components/AccountSection'
+import HomeSection from './Components/HomeSection'
 
 
 
