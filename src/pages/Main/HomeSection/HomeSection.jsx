@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { BlackCard, PurpleCard } from '../../../components/Cards'
+import { PurpleCard } from '../../../components/Cards'
 
 import './home-section.css'
 
