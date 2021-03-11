@@ -20,7 +20,7 @@ function homeSection() {
                     <button>Saiba Mais</button>
                 </section>
 
-                <Tilt className="tilt">
+                <Tilt className="tilt" options={{ max: 10 }}>
                     <div className="div-card">
                         <PurpleCard name='Arthur Cabral' />
                     </div>
