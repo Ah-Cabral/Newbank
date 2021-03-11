@@ -1,0 +1,49 @@
+//Importando font-awesome
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+//Importando fontes
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+//Variáveis de Cor
+$black-main: #292929;
+$white-main: #f6f6f6;
+$purple-main: #8600c9;
+$black-purple: #3a0f4a;
+$gray-light: #e4e4e4;
+
+button {
+    border: none;
+    background: $purple-main;
+    color: $white-main;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.7rem 1.4rem;
+    transition: all 0.5s;
+    &:hover {
+        background: $white-main;
+        color: $purple-main;
+        border: 1px solid $gray-light;
+        border-radius: 10px;
+    }
+    &.Pattern {
+        font-size: 0.9rem;
+        border: none;
+        background: none;
+        padding: 0.7rem;
+        cursor: pointer;
+        color: $purple-main;
+    }
+}
