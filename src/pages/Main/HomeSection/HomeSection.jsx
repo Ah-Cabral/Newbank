@@ -1,4 +1,5 @@
 import React from 'react'
+import Tilt from 'react-vanilla-tilt'
 
 import { PurpleCard } from '../../../components/Cards'
 
@@ -19,9 +20,11 @@ function homeSection() {
                     <button>Saiba Mais</button>
                 </section>
 
-                <div className="div-card">
-                    <PurpleCard name='Arthur Cabral' />
-                </div>
+                <Tilt className="tilt">
+                    <div className="div-card">
+                        <PurpleCard name='Arthur Cabral' />
+                    </div>
+                </Tilt>
 
                 {/*<BlackCard name='Bem vindo ;)' />*/}
 
