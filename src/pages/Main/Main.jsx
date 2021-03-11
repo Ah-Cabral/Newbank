@@ -11,8 +11,8 @@ import HomeSection from './HomeSection/HomeSection'
 const Main = () => {
     return (
         <>
-            <Header />
             <main className="main-container">
+                <Header />
                 <HomeSection />
                 <AccountSection />
             </main>
