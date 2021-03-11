@@ -1,6 +1,6 @@
 import React from 'react'
 import NubankLogo from '../images/nubank-purple-logo.svg'
-import '../styles/components/CSS/header.css'
+import '../styles/components/css/header.css'
 
 const Header = () => {
     return (
