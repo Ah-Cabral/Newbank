@@ -22,6 +22,8 @@
   z-index: 3;
 }
 .account-section-container .content-and-image .tilt:hover {
+  width: 400px !important;
+  height: 520px !important;
   transition: all 0.2s;
 }
 .account-section-container .content-and-image .tilt .img-wrapper img {
@@ -30,6 +32,10 @@
   transition: all 0.2s;
   object-fit: cover;
   border-radius: 10px;
+}
+.account-section-container .content-and-image .tilt .img-wrapper img:hover {
+  width: 400px;
+  height: 520px;
 }
 
 .content {
