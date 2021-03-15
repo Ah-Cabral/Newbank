@@ -3,10 +3,9 @@ import React from 'react'
 import './account-section.css'
 
 import WomanImage from '../../../images/woman-photo.jpg'
+import BusinessMan from '../../../images/business-man-photo.jpg'
 
 import Tilt from 'react-vanilla-tilt'
-
-
 
 function AccountSection() {
     return (
@@ -20,11 +19,9 @@ function AccountSection() {
                 <div>
                     <Tilt className="tilt" options={{ max: 5 }}>
                         <div className="img-wrapper">
-                            <img src={WomanImage} alt="" />
+                            <img src={WomanImage} className="tilt" />
                         </div>
                     </Tilt>
-
-
                 </div>
             </div>
         </section >
