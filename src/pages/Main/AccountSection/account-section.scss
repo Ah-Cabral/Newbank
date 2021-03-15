@@ -21,6 +21,8 @@
             box-shadow: none !important;
             z-index: 3;
             &:hover {
+                width: 400px !important;
+                height: 520px !important;
                 transition: all 0.2s;
             }
             .img-wrapper {
@@ -30,6 +32,10 @@
                     transition: all 0.2s;
                     object-fit: cover;
                     border-radius: 10px;
+                    &:hover {
+                        width: 400px;
+                        height: 520px;
+                    }
                 }
             }
         }
