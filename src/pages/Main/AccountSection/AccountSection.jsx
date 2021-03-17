@@ -10,6 +10,7 @@ import Tilt from 'react-vanilla-tilt'
 function AccountSection() {
     return (
         <section className="account-section-container" >
+            <h2 className="title-section">Title</h2>
             <div className="content-and-image">
                 <div className="content">
                     <h2>Lorem ipsum dolor sit amet</h2>
