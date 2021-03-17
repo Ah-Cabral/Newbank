@@ -3,14 +3,13 @@ import React from 'react'
 import './account-section.css'
 
 import WomanImage from '../../../images/woman-photo.jpg'
-import BusinessMan from '../../../images/business-man-photo.jpg'
 
 import Tilt from 'react-vanilla-tilt'
 
 function AccountSection() {
     return (
         <section className="account-section-container" >
-            <h2 className="title-section">Title</h2>
+            <h2 className="title-section">Conta Digital</h2>
             <div className="content-and-image">
                 <div className="content">
                     <h2>Lorem ipsum dolor sit amet</h2>
