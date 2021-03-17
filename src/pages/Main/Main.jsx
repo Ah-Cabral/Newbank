@@ -5,6 +5,7 @@ import Header from '../../components/Header'
 import '../../styles/css/main.css'
 import AccountSection from './AccountSection/AccountSection'
 import HomeSection from './HomeSection/HomeSection'
+import ParaVoceSection from './ParaVoceSection/ParaVoceSection'
 
 
 
@@ -15,6 +16,7 @@ const Main = () => {
                 <Header />
                 <HomeSection />
                 <AccountSection />
+                <ParaVoceSection />
             </main>
         </>
     )
