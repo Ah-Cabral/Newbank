@@ -26,8 +26,6 @@ function homeSection() {
                     </div>
                 </Tilt>
 
-                {/*<BlackCard name='Bem vindo ;)' />*/}
-
             </div>
 
         </section>
