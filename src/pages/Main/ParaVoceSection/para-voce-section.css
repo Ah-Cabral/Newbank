@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.para-voce-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  z-index: 4;
+}
+.para-voce-container .img-and-text {
+  width: 960px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.para-voce-container .img-and-text img {
+  width: 250px;
+  height: 250px;
+}
+.para-voce-container .img-and-text h2 {
+  width: 400px;
+}
