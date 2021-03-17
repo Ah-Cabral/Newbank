@@ -11,16 +11,28 @@
     display: flex;
     z-index: 4;
     .img-and-text {
-        width: 960px;
+        width: 100%;
         display: flex;
-        align-items: center;
-        gap: 1rem;
-        img {
-            width: 250px;
-            height: 250px;
-        }
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
         h2 {
-            width: 400px;
+            &::before {
+                content: "";
+                width: 90px;
+                height: 2px;
+                display: block;
+                margin: 10px auto;
+                background-color: $purple-main;
+            }
+            &::after {
+                content: "";
+                width: 100px;
+                height: 2px;
+                display: block;
+                margin: 10px auto;
+                background-color: $purple-main;
+            }
         }
     }
 }
