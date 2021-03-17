@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import LogoNubank from '../../../images/nubank-purple-logo.svg'
 
+
+
 import './para-voce-section.css'
 
 
@@ -9,11 +11,14 @@ export class ParaVoceSection extends Component {
         return (
             <section className="para-voce-container">
                 <div className="img-and-text">
-                    <img src={LogoNubank} alt="Logo Nubank" />
-                    <h2>
-                        Lorem ipsum dolor sit amet.
-                        Lorem ipsum is a kind of aleatory text.
-                    </h2>
+                    <h2>Por quê Nubank é Perfeito Para Você?</h2>
+
+                    <div className="icons">
+                        <i class="fas fa-money-check"></i>
+                        <i class="fas fa-shield-alt"></i>
+                        <i class="far fa-clock"></i>
+                        <i class="fas fa-cog"></i>
+                    </div>
                 </div>
             </section>
         )
