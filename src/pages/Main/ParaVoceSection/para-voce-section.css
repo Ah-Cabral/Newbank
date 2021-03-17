@@ -10,15 +10,25 @@
   z-index: 4;
 }
 .para-voce-container .img-and-text {
-  width: 960px;
+  width: 100%;
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
 }
-.para-voce-container .img-and-text img {
-  width: 250px;
-  height: 250px;
+.para-voce-container .img-and-text h2::before {
+  content: "";
+  width: 90px;
+  height: 2px;
+  display: block;
+  margin: 10px auto;
+  background-color: #8600c9;
 }
-.para-voce-container .img-and-text h2 {
-  width: 400px;
+.para-voce-container .img-and-text h2::after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  display: block;
+  margin: 10px auto;
+  background-color: #8600c9;
 }
