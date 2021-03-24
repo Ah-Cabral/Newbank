@@ -40,7 +40,21 @@
   margin: 0 auto;
   display: grid;
   grid-template-areas: "logos1 nubank logos2" "logos1 nubank logos2";
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
+}
+.para-voce-container .para-voce-icons .upper-icons {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: logos1;
+}
+.para-voce-container .para-voce-icons .lower-icons {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 5;
+  grid-area: logos2;
 }
 .para-voce-container .para-voce-icons .logo-nubank {
   -ms-grid-row: 1;
@@ -51,6 +65,9 @@
   grid-area: nubank;
   align-self: center;
   justify-self: center;
+}
+.para-voce-container .para-voce-icons .icon-and-text {
+  text-align: center;
 }
 .para-voce-container .para-voce-icons .icon-and-text i {
   color: #8600c9;
