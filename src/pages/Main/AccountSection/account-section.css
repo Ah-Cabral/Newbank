@@ -49,7 +49,7 @@
   width: 90px;
   height: 2px;
   display: block;
-  margin: 2px auto;
+  margin: 8px auto;
   background-color: #f6f6f6;
 }
 .account-section-container .title-section::after {
@@ -57,7 +57,7 @@
   width: 100px;
   height: 2px;
   display: block;
-  margin: 2px auto;
+  margin: 8px auto;
   background-color: #f6f6f6;
 }
 
