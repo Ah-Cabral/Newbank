@@ -40,9 +40,17 @@
         width: 80%;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 5rem;
+        grid-template-areas:
+            "logos1 nubank logos2"
+            "logos1 nubank logos2";
+        gap: 1rem;
+        .logo-nubank {
+            opacity: 0.25;
+            margin-bottom: 4rem;
+            grid-area: nubank;
+            align-self: center;
+            justify-self: center;
+        }
         .icon-and-text {
             i {
                 color: $purple-main;
@@ -55,14 +63,6 @@
                 padding: 1.5rem;
                 transition: all 1s;
                 font-weight: bold;
-            }
-            &:hover {
-                i {
-                    font-size: 6rem;
-                }
-                p {
-                    font-size: 1.2rem;
-                }
             }
         }
     }
