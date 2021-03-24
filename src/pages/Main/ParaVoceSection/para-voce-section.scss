@@ -17,6 +17,7 @@
         text-align: center;
         padding: 2rem;
         h2 {
+            margin-bottom: 6rem;
             &::before {
                 content: "";
                 width: 90px;
@@ -33,6 +34,23 @@
                 margin: 10px auto;
                 background-color: $purple-main;
             }
+        }
+    }
+    .para-voce-icons {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5rem;
+        i {
+            color: $purple-main;
+            font-size: 5rem;
+        }
+        p {
+            width: 70%;
+            margin: 0 auto;
+            padding: 1.5rem;
         }
     }
 }
