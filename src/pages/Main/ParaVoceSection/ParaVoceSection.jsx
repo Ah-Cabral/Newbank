@@ -9,28 +9,28 @@ const ParaVoceSection = () => {
                 <h2>Por quê Nubank é Perfeito Para Você?</h2>
 
                 <div className="icons para-voce-icons">
-                    <div>
+                    <div className="icon-and-text">
                         <i className="fas fa-money-check"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Amet atque soluta quaerat in corporis laboriosam consectetur.
                         </p>
                     </div>
-                    <div>
+                    <div className="icon-and-text">
                         <i className="fas fa-shield-alt"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Amet atque soluta quaerat in corporis laboriosam consectetur.
                         </p>
                     </div>
-                    <div>
+                    <div className="icon-and-text">
                         <i className="far fa-clock"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Amet atque soluta quaerat in corporis laboriosam consectetur.
                         </p>
                     </div>
-                    <div>
+                    <div className="icon-and-text">
                         <i className="fas fa-cog"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
