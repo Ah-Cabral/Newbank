@@ -8,7 +8,7 @@ import Tilt from 'react-vanilla-tilt'
 
 function AccountSection() {
     return (
-        <section className="account-section-container" >
+        <section className="account-section-container" id="digital-account">
             <h2 className="title-section">Conta Digital</h2>
             <div className="content-and-image">
                 <div className="content">
