@@ -43,12 +43,21 @@
   grid-template-rows: 1fr 1fr;
   gap: 5rem;
 }
-.para-voce-container .para-voce-icons i {
+.para-voce-container .para-voce-icons .icon-and-text i {
   color: #8600c9;
   font-size: 5rem;
+  transition: all 1s;
 }
-.para-voce-container .para-voce-icons p {
-  width: 70%;
+.para-voce-container .para-voce-icons .icon-and-text p {
+  width: 80%;
   margin: 0 auto;
   padding: 1.5rem;
+  transition: all 1s;
+  font-weight: bold;
+}
+.para-voce-container .para-voce-icons .icon-and-text:hover i {
+  font-size: 6rem;
+}
+.para-voce-container .para-voce-icons .icon-and-text:hover p {
+  font-size: 1.2rem;
 }
