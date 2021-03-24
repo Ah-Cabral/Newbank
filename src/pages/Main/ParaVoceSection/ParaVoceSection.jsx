@@ -9,35 +9,39 @@ const ParaVoceSection = () => {
                 <h2>Por quê Nubank é Perfeito Para Você?</h2>
 
                 <div className="icons para-voce-icons">
-                    <div className="icon-and-text">
-                        <i className="fas fa-money-check"></i>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Amet atque soluta quaerat in corporis laboriosam consectetur.
+                    <div className="upper-icons">
+                        <div className="icon-and-text check-icon">
+                            <i className="fas fa-money-check"></i>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Amet atque soluta quaerat in corporis laboriosam consectetur.
                         </p>
-                    </div>
-                    <div className="icon-and-text">
-                        <i className="fas fa-shield-alt"></i>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Amet atque soluta quaerat in corporis laboriosam consectetur.
+                        </div>
+                        <div className="icon-and-text shield-icon">
+                            <i className="fas fa-shield-alt"></i>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Amet atque soluta quaerat in corporis laboriosam consectetur.
                         </p>
+                        </div>
                     </div>
-                    <div className="icon-and-text">
-                        <i className="far fa-clock"></i>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Amet atque soluta quaerat in corporis laboriosam consectetur.
-                        </p>
+                    <img src={logoNubank} alt="Logo Nubank" className="logo-nubank" />
+                    <div className="lower-icons">
+                        <div className="icon-and-text clock-icon">
+                            <i className="far fa-clock"></i>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Amet atque soluta quaerat in corporis laboriosam consectetur.
+                            </p>
+                        </div>
+                        <div className="icon-and-text settings-icon">
+                            <i className="fas fa-cog"></i>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Amet atque soluta quaerat in corporis laboriosam consectetur.
+                            </p>
+                        </div>
                     </div>
-                    <div className="icon-and-text">
-                        <i className="fas fa-cog"></i>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Amet atque soluta quaerat in corporis laboriosam consectetur.
-                        </p>
-                    </div>
-
                 </div>
             </div>
         </section>
