@@ -39,9 +39,18 @@
   width: 80%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 5rem;
+  grid-template-areas: "logos1 nubank logos2" "logos1 nubank logos2";
+  gap: 1rem;
+}
+.para-voce-container .para-voce-icons .logo-nubank {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  opacity: 0.25;
+  margin-bottom: 4rem;
+  grid-area: nubank;
+  align-self: center;
+  justify-self: center;
 }
 .para-voce-container .para-voce-icons .icon-and-text i {
   color: #8600c9;
@@ -54,10 +63,4 @@
   padding: 1.5rem;
   transition: all 1s;
   font-weight: bold;
-}
-.para-voce-container .para-voce-icons .icon-and-text:hover i {
-  font-size: 6rem;
-}
-.para-voce-container .para-voce-icons .icon-and-text:hover p {
-  font-size: 1.2rem;
 }
