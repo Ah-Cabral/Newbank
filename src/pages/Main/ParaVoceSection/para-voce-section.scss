@@ -43,14 +43,27 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 5rem;
-        i {
-            color: $purple-main;
-            font-size: 5rem;
-        }
-        p {
-            width: 70%;
-            margin: 0 auto;
-            padding: 1.5rem;
+        .icon-and-text {
+            i {
+                color: $purple-main;
+                font-size: 5rem;
+                transition: all 1s;
+            }
+            p {
+                width: 80%;
+                margin: 0 auto;
+                padding: 1.5rem;
+                transition: all 1s;
+                font-weight: bold;
+            }
+            &:hover {
+                i {
+                    font-size: 6rem;
+                }
+                p {
+                    font-size: 1.2rem;
+                }
+            }
         }
     }
 }
