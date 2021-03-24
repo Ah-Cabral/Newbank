@@ -43,7 +43,15 @@
         grid-template-areas:
             "logos1 nubank logos2"
             "logos1 nubank logos2";
+        align-items: center;
+        justify-content: center;
         gap: 1rem;
+        .upper-icons {
+            grid-area: logos1;
+        }
+        .lower-icons {
+            grid-area: logos2;
+        }
         .logo-nubank {
             opacity: 0.25;
             margin-bottom: 4rem;
@@ -52,6 +60,7 @@
             justify-self: center;
         }
         .icon-and-text {
+            text-align: center;
             i {
                 color: $purple-main;
                 font-size: 5rem;
