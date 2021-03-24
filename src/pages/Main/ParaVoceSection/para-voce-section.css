@@ -16,6 +16,9 @@
   text-align: center;
   padding: 2rem;
 }
+.para-voce-container .img-and-text h2 {
+  margin-bottom: 6rem;
+}
 .para-voce-container .img-and-text h2::before {
   content: "";
   width: 90px;
@@ -31,4 +34,21 @@
   display: block;
   margin: 10px auto;
   background-color: #8600c9;
+}
+.para-voce-container .para-voce-icons {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5rem;
+}
+.para-voce-container .para-voce-icons i {
+  color: #8600c9;
+  font-size: 5rem;
+}
+.para-voce-container .para-voce-icons p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
