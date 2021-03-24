@@ -37,6 +37,7 @@ button {
     border-radius: 8px;
     padding: 0.7rem 1.4rem;
     transition: all 0.5s;
+    cursor: pointer;
     &:hover {
         background: $white-main;
         color: $purple-main;
