@@ -6,6 +6,7 @@ import '../../styles/css/main.css'
 import AccountSection from './AccountSection/AccountSection'
 import HomeSection from './HomeSection/HomeSection'
 import ParaVoceSection from './ParaVoceSection/ParaVoceSection'
+import FinalFooter from './Footer/FinalFooter'
 
 
 
@@ -17,6 +18,7 @@ const Main = () => {
                 <HomeSection />
                 <AccountSection />
                 <ParaVoceSection />
+                <FinalFooter />
             </main>
         </>
     )
